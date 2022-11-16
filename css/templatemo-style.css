@@ -161,6 +161,10 @@ div#about p {
   margin-right: 15px;
 }
 
+#recentProj h2 {
+  color: #1077a5
+}
+
 #viewMore {
   padding: 10px 0;
 }
@@ -522,7 +526,7 @@ footer a:hover {
 }
 
 /* media 960 */
-@media ( max-width: 980px ) {
+@media ( max-width: 992px ) {
   .divider .divider-wrapper {
     margin-bottom: 20px;
   }
@@ -542,25 +546,17 @@ footer a:hover {
     padding-top: 30px;
   }
 
+
   .divider .divider-two ul li {
     display: block;
     justify-content: space-between;
     padding-bottom: 10px;
   }
 
-  div#about img {
-    display: none;
-  }
-
   #projects img {
     width: 100%;
   }
-
-  #projectDisplay {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
+ 
 }
 
 
@@ -569,4 +565,10 @@ footer a:hover {
     margin-left: 30px;
     width: 80%;
   }
+
+  
+  div#about img {
+    display: none;
+  }
+
 };

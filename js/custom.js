@@ -48,7 +48,7 @@ $('#portfolio a').nivoLightbox({
 
 
     //Let's select another node
-(function(){
+
     let copyright = document.getElementById('copyright');
 
     console.log(copyright);
@@ -58,6 +58,8 @@ $('#portfolio a').nivoLightbox({
     console.log(today);
     copyright.textContent = '&copy;';
     copyright.innerHTML = '&copy;';
-    copyright.innerHTML = `&copy; ${today} Jeffrey Cundiff.`;
+    copyright.innerHTML = `&copy; ${today} Jeffrey Cundiff.`; 
 
-})
+    $(function(){
+      var coverflow = $("#coverflow").flipster();
+    });

@@ -16,7 +16,11 @@ http://www.templatemo.com/tm-468-onetel
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/nivo-lightbox.css">
 	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<!-- JQuery Plugin -->
+	<link rel="stylesheet" href="/css/jquery.flipster.min.css">
 	<link rel="stylesheet" href="css/templatemo-style.css">
+	<!-- Custome CSS -->
+	<link rel="stylesheet" href="/css/custom.css">
 	<!-- google web font css -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
@@ -35,8 +39,8 @@ http://www.templatemo.com/tm-468-onetel
 			</button>
 			<div class="col collapse navbar-collapse">
 				<ul class="social-icons">
-					<li><a href="https://www.linkedin.com/in/jeffrey-cundiff-b7b658255/" class="fa fa-linkedin"></a></li>
-					<li><a href="https://github.com/J-Cundiff" class="fa fa-github"></a></li>
+					<li><a href="https://www.linkedin.com/in/jeffrey-cundiff-b7b658255/" target="_blank" class="fa fa-linkedin"></a></li>
+					<li><a href="https://github.com/J-Cundiff" target="_blank" class="fa fa-github"></a></li>
 				</ul>
 			</div>
 		</div>
@@ -61,10 +65,10 @@ http://www.templatemo.com/tm-468-onetel
 <div id="about">
 	<div class="container">
 		<div class="row">
-			<!-- <div class="col-md-4 col-sm-12">
+			<div class="col-md-4 col-sm-4">
 				<img src="images/MyPicture.JPG" class="img-responsive" alt="about img">
-			</div> -->
-			<div class="col-md-12 col-sm-12 about-des text-center">
+			</div>
+			<div class="col-md-8 col-sm-8 about-des text-center">
 				<h2>A little about myself!</h2>
 				<p>Hi! My name is Jeffrey Cundiff. I have worked in the Hospitality/Customer Service industry for the past several years. 
 					Most recently I was Assistant Manager at QuikTrip. During my time in that role I learned 
@@ -128,7 +132,25 @@ http://www.templatemo.com/tm-468-onetel
 		</div>
 	</div>
 </div>
-
+<div class="divider">
+	<div class="container">
+		<div id="coverflow" class="col-med-12">
+			<h2>My Badges!</h2>
+			<ul class="flip-items">
+			  <li data-flip-title="Title 1">
+				<img src="/images/portfolio-img1.jpg">
+			  </li>
+			  <li data-flip-title="Title 2">
+				<img src="/images/portfolio-img2.jpg">
+			  </li>
+			  <li data-flip-title="Title 3">
+				<img src="/images/portfolio-img3.jpg">
+			  </li>
+			  ...
+			</ul>
+		</div>
+	</div>
+</div>
 <!-- portfolio section -->
 
 	<div class="container-fluid text-center" id="recentProj">
@@ -142,7 +164,7 @@ http://www.templatemo.com/tm-468-onetel
           <div class="row mt30">
             
 			<div class="col">
-				<a href="https://github.com/J-Cundiff/DungeonApplication" data-lightbox-gallery="portfolio-gallery">
+				<a href="https://github.com/J-Cundiff/DungeonApplication" target="_blank" data-lightbox-gallery="portfolio-gallery">
 					<img src="images/Dungeon_image.png" alt="portfolio img">
 				</a>
 			</div>
@@ -160,9 +182,9 @@ http://www.templatemo.com/tm-468-onetel
 	<div class="container">
 		<div class="row text-center">
 			<div class="col">
-				<p><i class="fa fa-phone"></i> 816-447-640</p>
+				<p><i class="fa fa-phone"></i> 816-447-6450</p>
 				<p><i class="fa fa-envelope-o"></i> jd.cundiff@outlook.com</p>
-              <p><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/jeffrey-cundiff-b7b658255/">Message me on LinkedIn </a></p>
+              <p><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/jeffrey-cundiff-b7b658255/" target="_blank">Message me on LinkedIn </a></p>
 			</div>
 		</div>
 	</div>
@@ -184,6 +206,7 @@ http://www.templatemo.com/tm-468-onetel
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>	
 <script src="js/nivo-lightbox.min.js"></script>
+<script src="/js/jquery.flipster.min.js"></script>
 <script src="js/custom.js"></script>
 
 </body>
